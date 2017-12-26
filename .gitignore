@@ -29,6 +29,3 @@ hs_err_pid*
 .idea/uiDesigner.xml
 .idea/workspace.xml
 ReJavaCo.iml
-src/main/java/chapters/ch3/withoutConstructor/
-src/main/java/chapters/ch4/
-src/test/
