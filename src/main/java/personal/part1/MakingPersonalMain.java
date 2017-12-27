@@ -13,6 +13,8 @@ public class MakingPersonalMain {
         MakingPersonal person1 = new MakingPersonal("Frank", 2, 2);
         MakingPersonal person2 = new MakingPersonal("Melissa", 3,3);
 
+        MakingPersonal[] personals = new MakingPersonal[2];
+
         do {
             System.out.println(person1);
             System.out.println(person2);
