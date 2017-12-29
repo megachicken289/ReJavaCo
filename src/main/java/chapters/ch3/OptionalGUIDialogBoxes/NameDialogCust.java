@@ -8,10 +8,11 @@ public class NameDialogCust
         // prompt user
         String name = JOptionPane.showInputDialog("What yo' nam':");
 
-        // mkMsg
-        String message = String.format("Welcome [%s] to Java programming!", name.toUpperCase());
+        String message = "<YOU HAVE ENTERED NOTHING MORON>";
+        if (name == null) {
+            message = String.format("Welcome [%s] to Java programming!", name.toUpperCase());
+        }
 
-        //display in dialog
         JOptionPane.showMessageDialog(null, message);
     }
 }
