@@ -1,4 +1,4 @@
-package chapters.ch6.Version1;
+package chapters.ch6;
 
 import java.util.Scanner;
 

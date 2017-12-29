@@ -1,4 +1,4 @@
-package chapters.ch6.Version1;
+package chapters.ch6;
 
 import java.security.SecureRandom;
 
@@ -61,6 +61,8 @@ public class RollDie
             if (roll % 100000 == 0)
                 System.out.println("Roll: " + roll);
         }
+
+        System.out.println("");
 
         System.out.println("Face\tFreq"); // headers
         System.out.printf("1\t%d%n2\t%d%n3\t%d%n4\t%d%n5\t%d%n6\t%d%n", freq1, freq2,freq3,freq4,freq5,freq6);
