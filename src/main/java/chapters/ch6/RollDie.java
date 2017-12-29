@@ -70,6 +70,6 @@ public class RollDie
         System.out.println("");
 
         System.out.println("Face\tFreq"); // headers
-        System.out.printf("1\t%d%n2\t%d%n3\t%d%n4\t%d%n5\t%d%n6\t%d%n", freq1post, freq2post,freq3post,freq4post,freq5post,freq6);
+        System.out.printf("1\t%d%n2\t%d%n3\t%d%n4\t%d%n5\t%d%n6\t%d%n", freq1post, freq2post,freq3post,freq4post,freq5post,freq6post);
     }
 }
