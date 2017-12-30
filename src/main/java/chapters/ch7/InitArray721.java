@@ -1,5 +1,6 @@
 package chapters.ch7;
 
-public class InitArray72
+public class InitArray721
 {
+
 }
