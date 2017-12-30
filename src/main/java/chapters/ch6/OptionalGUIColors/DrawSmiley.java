@@ -23,6 +23,9 @@ public class DrawSmiley extends JPanel
         g.fillOval(50,110,120,60);
 
         // "touch up" the mouth into smile
+        /*
+         * comment out to have a shocked face :O
+         */
         g.setColor(Color.YELLOW);
         g.fillRect(50,110,120,30);
         g.fillOval(50,120,120,40);
