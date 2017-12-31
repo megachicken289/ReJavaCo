@@ -26,11 +26,11 @@ public class Time1
     // convert to String in universal-timee format (HH:MM:SS)
     public String toUniversalString()
     {
-        return String.format("02d:%02d:%02d", hour, minute, second);
+        return String.format("%02d:%02d:%02d", hour, minute, second);
     }
 
     // convert to String in standard-time format (H:MM:SS AM or PM)
-    @Override
+//    @Override
     public String toString()
     {
         return String.format("02d:%02d:%02d",
