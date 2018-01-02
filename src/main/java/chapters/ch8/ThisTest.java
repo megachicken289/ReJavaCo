@@ -1,13 +1,13 @@
 package chapters.ch8;
 
-import java.util.SimpleTimeZone;
-
 public class ThisTest
 {
     public static void main(String[] args)
     {
         SimpleTime time = new SimpleTime(15,30,19);
+        SimpleTime timeCustom = new SimpleTime(23,59,59);
         System.out.println(time.buildString());
+        System.out.println(timeCustom.buildString());
     }
 }
 
