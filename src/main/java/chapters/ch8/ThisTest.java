@@ -23,6 +23,7 @@ class SimpleTime
     // distinguish between the names
     public SimpleTime(int hour, int minute, int second)
     {
+        // pretend "this" --> "time" // from line 9
         this.hour = hour;       // set "this" obj's hour
         this.minute = minute;   // set "this" obj's min
         this.second = second;   // set "this" obj's sec
