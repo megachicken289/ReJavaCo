@@ -19,7 +19,7 @@ public class Time2Test
         displayTime("t1: hour, minutes, and seconds specified", t4);
         displayTime("t1: Time2 object t4 specified ", t5);
 
-        // attempt to initi t6 with invaliid dates
+        // attempt to initialize t6 with invalid dates
         try {
             Time2 t6 = new Time2(27, 24, 99);    // invalid time
         } catch (IllegalArgumentException e) {
